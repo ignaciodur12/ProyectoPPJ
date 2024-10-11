@@ -1,0 +1,12 @@
+
+#services:
+  #db:
+   # image: mysql
+    #container_name: MYSQL
+    #ports:
+     # - "3310:3306"  # Cambiado a 3310 para coincidir con tu configuración
+    #environment:
+     # MYSQL_ROOT_PASSWORD: "12345"  # Cambiado a 12345 para coincidir con tu configuración
+      #MYSQL_DATABASE: "base_gestion_tareas"  # Base de datos predeterminada
+    #volumes:
+      #- ./schemas:/var/lib/mysql
